@@ -9,7 +9,7 @@ import MyImage from "./../../assets/myImage.jpg"
 
 function LeftSection() {
   return (
-    <aside className="info-container mb-0 w-full md:w-[20rem] lg:w-[25rem] h-auto sm:h-[59rem] py-8 z-0  md:fixed md:top-[3rem] top-0 left-0 md:left-[5rem] md:ml-[8rem] flex flex-col items-center justify-between bg-white shadow-lg md:rounded-lg overflow-auto">
+    <aside className="info-container mb-0 w-full md:w-[20rem] lg:w-[25rem] h-auto sm:h-[90vh] py-8 z-0  md:fixed md:top-[3rem] top-0 left-0 md:left-[2vw]  md:ml-[8rem] flex flex-col items-center justify-between bg-white shadow-lg md:rounded-lg overflow-auto">
       <div className="flex flex-col justify-center items-center px-4">
         <div className="img-container z-30 shadow-lg rounded-lg bg-black-900 h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem]">
           <img

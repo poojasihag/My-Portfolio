@@ -12,7 +12,7 @@ const features = [
     description:
       "A real-time chat application built with React, Firebase, and Tailwind CSS. Features user authentication, emojis, image sharing, and more.",
     href: "https://react-firebase-chat-app-ten.vercel.app/",
-    cta: "Learn more",
+    cta: "Visit Now",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-3",
   },
@@ -22,7 +22,7 @@ const features = [
     description:
       "Task Buddy demonstrates my ability to design and implement full-stack web applications with a focus on real-time functionality and user experience",
     href: "https://task-buddy-silk.vercel.app",
-    cta: "Learn more",
+    cta: "Visit Now",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-3",
   },
@@ -32,7 +32,7 @@ const features = [
     description:
       "EDucational WebSite showcases my skills in front-end development, UI/Ux design, and creating static web applications that are both functional and visually appealing.",
     href: "https://poojasihag.github.io/EDucational_webapp/",
-    cta: "Learn more",
+    cta: "Visit Now",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-start-1 lg:col-end-2 lg:row-start-3 lg:row-end-4",
   },
@@ -42,7 +42,7 @@ const features = [
     description:
       "Built with advanced animations, smooth scrolling, and responsive design.",
     href: "https://main--ochiclonep.netlify.app/",
-    cta: "Learn more",
+    cta: "Visit Now",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-start-3 lg:col-end-3 lg:row-start-1 lg:row-end-2",
   },
@@ -52,7 +52,7 @@ const features = [
     description:
       "Generate strong, random passwords with customizable options for enhanced security.",
     href: "https://poojasihag.github.io/all-projects/R-Password-Gen/index.html",
-    cta: "Learn more",
+    cta: "Visit Now",
     background: <img className="absolute -right-20 -top-20 opacity-60" />,
     className: "lg:col-start-3 lg:col-end-3 lg:row-start-2 lg:row-end-4",
   },

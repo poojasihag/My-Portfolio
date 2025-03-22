@@ -19,6 +19,12 @@ function Contact() {
             Thanks for joining!
           </p>
          </div>
+         <div className=" m-8 text-center text-gray-700">
+            <a href="mailto:notifypoojasihag@gmail.com">
+              📧 Email: notifypoojasihag@gmail.com
+            </a>
+            <p>📍 Location: Fatehabad, Haryana</p>
+          </div>
         </div>
       </div>
     );
@@ -114,10 +120,12 @@ function Contact() {
         </div>
 
         {/* Contact Info Section */}
-        <div className="mt-12 text-center text-gray-700">
-          <p>📧 Email: yourname@example.com</p>
-          <p>📍 Location: Fatehabad, Haryana</p>
-        </div>
+        <div className=" m-8 text-center text-gray-700">
+            <a href="mailto:notifypoojasihag@gmail.com">
+              📧 Email: notifypoojasihag@gmail.com
+            </a>
+            <p>📍 Location: Fatehabad, Haryana</p>
+          </div>
       </div>
     </section>
   );

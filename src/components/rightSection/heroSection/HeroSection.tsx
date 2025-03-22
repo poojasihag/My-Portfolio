@@ -1,6 +1,6 @@
 import { BackgroundPaths } from "@/components/ui/LineBg";
 import { motion } from "framer-motion";
-// import { FaArrowUpLong } from "react-icons/fa6";
+
 function HeroSection() {
   return (
     <>
@@ -16,9 +16,9 @@ function HeroSection() {
             className=" bg-white-900 pt-1 "
           >
             <div className="textstucture text-sky-600  ">
-              {["Code.", "Design.", "Create. "].map((item, index) => {
+              {["Code.", "Design.", "Create. "].map((item, index)  => {
                 return (
-                  <div className="masker ">
+                  <div className="masker " key={index}>
                     <div className="w-fit flex items-end overflow-hidden ">
                       {index === 1 && (
                         <motion.img

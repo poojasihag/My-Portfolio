@@ -1,11 +1,13 @@
-import React from "react";
 import { Skills } from "./Skills";
 import { RiGraduationCapLine } from "react-icons/ri";
 import { HiOutlineLightBulb } from "react-icons/hi";
 
 function About() {
   return (
-    <section id="about" className=" h-auto w-full  overflow-auto z-0  bg-white ">
+    <section
+      id="about"
+      className=" h-auto w-full  overflow-auto z-0  bg-white "
+    >
       <div className="max-w-4xl md:ml-[12rem]">
         <h4 className="text-5xl font-bold text-gray-700  md:mt-[3rem] text-center ">
           About Me:
@@ -110,9 +112,9 @@ function About() {
 
       {/* Skills Section */}
       <div className="flex items-center mt-[3rem] md:mt-[6rem] md:ml-[17rem]">
-            <HiOutlineLightBulb className="text-gray-900 w-8 h-8 md:mr-3" />
-            <h1 className="text-3xl font-bold text-gray-800">Skills I have:</h1>
-          </div>
+        <HiOutlineLightBulb className="text-gray-900 w-8 h-8 md:mr-3" />
+        <h1 className="text-3xl font-bold text-gray-800">Skills I have:</h1>
+      </div>
 
       <Skills />
     </section>

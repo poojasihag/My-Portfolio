@@ -62,7 +62,6 @@ const data = [
 export function Skills() {
   return (
     <>
-     
       <div className="md:mt-[-3rem] ml-[6.3rem] mt-[3rem] md:scale-[1.2] scale-[0.8] md:ml-[49rem] mb-6  left-1/2 max-w-full -translate-x-1/2  ">
         <Dock className="items-end pb-3 bg-sky-500  hover:overflow-visible">
           {data.map((item, idx) => (

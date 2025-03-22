@@ -11,15 +11,15 @@ function Contact() {
     return (
       <div className="h-auto w-full  overflow-auto z-0  bg-white ">
         <div className="max-w-4xl mx-auto">
-        <h4 className="text-5xl font-bold text-gray-700 mb-[5rem] mt-[5rem]  text-center ">
-          Contact Me:
-        </h4>
-        <div className="bg-white pb-[5rem] pt-[2rem]  shadow-sky-900 rounded-lg shadow-md">
-          <p className="inline- justify-center items-center text-5xl mt-[2rem] ml-[14rem] w-[20vw]  bg-white    text-sky-600 ">
-            Thanks for joining!
-          </p>
-         </div>
-         <div className=" m-8 text-center text-gray-700">
+          <h4 className="text-5xl font-bold text-gray-700 mb-[5rem] mt-[5rem]  text-center ">
+            Contact Me:
+          </h4>
+          <div className="bg-white pb-[5rem] pt-[2rem]  shadow-sky-900 rounded-lg shadow-md">
+            <p className="inline- justify-center items-center text-5xl mt-[2rem] ml-[14rem] w-[20vw]  bg-white    text-sky-600 ">
+              Thanks for joining!
+            </p>
+          </div>
+          <div className=" m-8 text-center text-gray-700">
             <a href="mailto:notifypoojasihag@gmail.com">
               📧 Email: notifypoojasihag@gmail.com
             </a>
@@ -36,16 +36,11 @@ function Contact() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    // You can add email sending logic or API call here
-    alert("Message sent!");
-    setFormData({ name: "", email: "", message: "" });
-  };
-
   return (
-    <section id="contact" className="h-auto w-full  overflow-auto z-0  bg-white  ">
+    <section
+      id="contact"
+      className="h-auto w-full  overflow-auto z-0  bg-white  "
+    >
       <div className="max-w-4xl mx-auto">
         <h4 className="text-5xl font-bold text-gray-700 mb-[5rem] mt-[5rem]  text-center ">
           Contact Me:
@@ -121,11 +116,11 @@ function Contact() {
 
         {/* Contact Info Section */}
         <div className=" m-8 text-center text-gray-700">
-            <a href="mailto:notifypoojasihag@gmail.com">
-              📧 Email: notifypoojasihag@gmail.com
-            </a>
-            <p>📍 Location: Fatehabad, Haryana</p>
-          </div>
+          <a href="mailto:notifypoojasihag@gmail.com">
+            📧 Email: notifypoojasihag@gmail.com
+          </a>
+          <p>📍 Location: Fatehabad, Haryana</p>
+        </div>
       </div>
     </section>
   );

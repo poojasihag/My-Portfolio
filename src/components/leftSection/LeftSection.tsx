@@ -1,4 +1,3 @@
-import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import { IoHome } from "react-icons/io5";
@@ -6,7 +5,6 @@ import { GrCircleInformation } from "react-icons/gr";
 import { GoProjectSymlink } from "react-icons/go";
 import { RiContactsLine } from "react-icons/ri";
 import { Button } from "@/components/ui/button";
-
 
 function LeftSection() {
   return (
@@ -30,56 +28,56 @@ function LeftSection() {
 
       <nav className="text-black w-full mt-6 px-4">
         <ul className="flex flex-col items-center space-y-4">
-          <li><a href="#hero">
-          
-            <Button
-              variant="outline"
-              aria-label="Home"
-              size="sm"
-              className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
+          <li>
+            <a href="#hero">
+              <Button
+                variant="outline"
+                aria-label="Home"
+                size="sm"
+                className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
               >
-              <IoHome size={16} className="mr-2" />
-              Home
-            </Button>
-              </a>
-          </li>
-          <li>
-          <a href="#about">
-            <Button
-              variant="outline"
-              aria-label="About"
-              size="sm"
-              className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
-            >
-              <GrCircleInformation size={16} className="mr-2" />
-              About
-            </Button>
+                <IoHome size={16} className="mr-2" />
+                Home
+              </Button>
             </a>
           </li>
           <li>
-          <a href="#projects">
-            <Button
-              variant="outline"
-              aria-label="Projects"
-              size="sm"
-              className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
-            >
-              <GoProjectSymlink size={16} className="mr-2" />
-              Projects
-            </Button>
+            <a href="#about">
+              <Button
+                variant="outline"
+                aria-label="About"
+                size="sm"
+                className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
+              >
+                <GrCircleInformation size={16} className="mr-2" />
+                About
+              </Button>
             </a>
           </li>
           <li>
-          <a href="#contact">
-            <Button
-              variant="outline"
-              aria-label="Contact"
-              size="sm"
-              className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
-            >
-              <RiContactsLine size={16} className="mr-2" />
-              Contact
-            </Button>
+            <a href="#projects">
+              <Button
+                variant="outline"
+                aria-label="Projects"
+                size="sm"
+                className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
+              >
+                <GoProjectSymlink size={16} className="mr-2" />
+                Projects
+              </Button>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <Button
+                variant="outline"
+                aria-label="Contact"
+                size="sm"
+                className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
+              >
+                <RiContactsLine size={16} className="mr-2" />
+                Contact
+              </Button>
             </a>
           </li>
         </ul>

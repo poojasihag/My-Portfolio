@@ -16,12 +16,16 @@ function LeftSection() {
           <img
             id="my_img"
             alt="image"
+            src="/src/assets/myImage.jpg"
             className="bg-blue-300 h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem] rounded-lg object-cover"
           />
         </div>
         <h2 className="text-xl md:text-2xl font-bold text-gray-800 text-center mt-2">
           Pooja Sihag
         </h2>
+        <div className="text-center text-gray-700 text-sm">
+          <p>👩‍💻Software Devloper</p>
+        </div>
       </div>
 
       <nav className="text-black w-full mt-6 px-4">
@@ -111,8 +115,8 @@ function LeftSection() {
         </div>
 
         <a
-          href="/path-to-your-resume.pdf"
-          download
+          href="/src/assets/Pooja-resume (1).pdf"
+          download="Pooja_Resume.pdf"
           className="inline-flex items-center bg-white hover:text-gray-100 px-4 py-2 transition text-sm hover:bg-sky-500 text-gray-800 shadow-sky-500 rounded-lg shadow-md"
         >
           <HiDownload className="mr-2" />

@@ -1,5 +1,6 @@
 import { BackgroundPaths } from "@/components/ui/LineBg";
 import { motion } from "framer-motion";
+import DesignImage from "./../../../assets/design_img.jpg";
 
 function HeroSection() {
   return (
@@ -16,7 +17,7 @@ function HeroSection() {
             className=" bg-white-900 pt-1 "
           >
             <div className="textstucture text-sky-600  ">
-              {["Code.", "Design.", "Create. "].map((item, index)  => {
+              {["Code.", "Design.", "Create. "].map((item, index) => {
                 return (
                   <div className="masker " key={index}>
                     <div className="w-fit flex items-end overflow-hidden ">
@@ -26,7 +27,7 @@ function HeroSection() {
                           animate={{ width: "9vw" }}
                           transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
                           className=" w-[9vw] h-[5.7vw] relative top-[0.3vw]  bg-red-500"
-                          src="/src/assets/design_img.jpg"
+                          src={DesignImage}
                         ></motion.img>
                       )}
                       <h1 className="pt-[0vw] -mb-[1vw] uppercase text-[8vw] leading-[.94]  font-['Founders_Grotesk_X-Condensed'] font-bold">

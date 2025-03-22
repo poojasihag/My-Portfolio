@@ -5,6 +5,7 @@ import { GrCircleInformation } from "react-icons/gr";
 import { GoProjectSymlink } from "react-icons/go";
 import { RiContactsLine } from "react-icons/ri";
 import { Button } from "@/components/ui/button";
+import MyImage from "./../../assets/myImage.jpg"
 
 function LeftSection() {
   return (
@@ -14,7 +15,7 @@ function LeftSection() {
           <img
             id="my_img"
             alt="image"
-            src="/src/assets/myImage.jpg"
+            src={MyImage}
             className="bg-blue-300 h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem] rounded-lg object-cover"
           />
         </div>

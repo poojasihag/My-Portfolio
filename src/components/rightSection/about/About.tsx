@@ -5,9 +5,9 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 
 function About() {
   return (
-    <section className=" h-auto w-full  overflow-auto z-0  bg-white ">
-      <div className="max-w-4xl ml-[12rem]">
-        <h4 className="text-5xl font-bold text-gray-700  mt-[3rem] text-center ">
+    <section id="about" className=" h-auto w-full  overflow-auto z-0  bg-white ">
+      <div className="max-w-4xl md:ml-[12rem]">
+        <h4 className="text-5xl font-bold text-gray-700  md:mt-[3rem] text-center ">
           About Me:
         </h4>
 
@@ -44,7 +44,7 @@ function About() {
 
         {/* Studies Section */}
 
-        <div className=" w-full  mt-[6rem] ml-[5rem] ">
+        <div className=" w-full  mt-[6rem] md:ml-[5rem] ">
           <div className="flex items-center mb-8">
             <RiGraduationCapLine className="text-gray-900 w-8 h-8 mr-3" />
             <h1 className="text-3xl font-bold text-gray-800">Education</h1>
@@ -109,8 +109,8 @@ function About() {
       </div>
 
       {/* Skills Section */}
-      <div className="flex items-center mt-[6rem] ml-[17rem]">
-            <HiOutlineLightBulb className="text-gray-900 w-8 h-8 mr-3" />
+      <div className="flex items-center mt-[3rem] md:mt-[6rem] md:ml-[17rem]">
+            <HiOutlineLightBulb className="text-gray-900 w-8 h-8 md:mr-3" />
             <h1 className="text-3xl font-bold text-gray-800">Skills I have:</h1>
           </div>
 

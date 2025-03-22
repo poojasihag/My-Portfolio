@@ -7,9 +7,10 @@ import { GoProjectSymlink } from "react-icons/go";
 import { RiContactsLine } from "react-icons/ri";
 import { Button } from "@/components/ui/button";
 
+
 function LeftSection() {
   return (
-    <aside className="info-container w-full md:w-[20rem] lg:w-[25rem] h-screen md:h-[59rem] py-8 z-0 fixed md:top-[3rem] top-0 left-0 md:left-[5rem] md:ml-[8rem] flex flex-col items-center justify-between bg-white shadow-lg md:rounded-lg overflow-auto">
+    <aside className="info-container mb-0 w-full md:w-[20rem] lg:w-[25rem] h-auto sm:h-[59rem] py-8 z-0  md:fixed md:top-[3rem] top-0 left-0 md:left-[5rem] md:ml-[8rem] flex flex-col items-center justify-between bg-white shadow-lg md:rounded-lg overflow-auto">
       <div className="flex flex-col justify-center items-center px-4">
         <div className="img-container z-30 shadow-lg rounded-lg bg-black-900 h-[10rem] w-[10rem] md:h-[15rem] md:w-[15rem]">
           <img
@@ -25,18 +26,21 @@ function LeftSection() {
 
       <nav className="text-black w-full mt-6 px-4">
         <ul className="flex flex-col items-center space-y-4">
-          <li>
+          <li><a href="#hero">
+          
             <Button
               variant="outline"
               aria-label="Home"
               size="sm"
               className="w-[8rem] hover:bg-sky-700 hover:text-white transition shadow-lg shadow-sky-800 rounded-lg text-gray-800 border-sky-700"
-            >
+              >
               <IoHome size={16} className="mr-2" />
               Home
             </Button>
+              </a>
           </li>
           <li>
+          <a href="#about">
             <Button
               variant="outline"
               aria-label="About"
@@ -46,8 +50,10 @@ function LeftSection() {
               <GrCircleInformation size={16} className="mr-2" />
               About
             </Button>
+            </a>
           </li>
           <li>
+          <a href="#projects">
             <Button
               variant="outline"
               aria-label="Projects"
@@ -57,8 +63,10 @@ function LeftSection() {
               <GoProjectSymlink size={16} className="mr-2" />
               Projects
             </Button>
+            </a>
           </li>
           <li>
+          <a href="#contact">
             <Button
               variant="outline"
               aria-label="Contact"
@@ -68,6 +76,7 @@ function LeftSection() {
               <RiContactsLine size={16} className="mr-2" />
               Contact
             </Button>
+            </a>
           </li>
         </ul>
       </nav>
@@ -80,7 +89,10 @@ function LeftSection() {
             size="icon"
             className="shadow-sky-500 cursor-pointer rounded-lg shadow-md"
             onClick={() =>
-              window.open("https://www.linkedin.com/in/pooja-sihag-a25b5330b", "_blank")
+              window.open(
+                "https://www.linkedin.com/in/pooja-sihag-a25b5330b",
+                "_blank"
+              )
             }
           >
             <FaLinkedin size={16} aria-hidden="true" />

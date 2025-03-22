@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function HeroSection() {
   return (
     <>
-      <section className=" h-auto w-full  overflow-auto z-0  bg-white  ">
+      <section id="hero" className=" h-auto w-full   overflow-auto z-0  bg-white  ">
         <BackgroundPaths>
           <div
             data-scroll

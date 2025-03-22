@@ -4,15 +4,14 @@ import About from "./about/About";
 import Projects from "./projects/Projects";
 import Contact from "./contact/Contact";
 
+
 function RightSection() {
   return (
     <div
-      className="  h-[90vh] w-[60vw] sm:absolute  sm:top-[3rem] 
-        sm:left-[35rem] 
-        sm:w-[55vw] 
-        sm:h-[90vh]  overflow-auto z-0 absolute top-[3rem] ml-[10rem]  left-[45rem] bg-white shadow-lg  rounded-lg   "
+      className=" w-full h-auto md:h-[90vh] mt-0 sm:w-[60vw]  md:overflow-auto z-0 md:absolute md:top-[3rem]   md:left-[45rem] bg-white shadow-lg  rounded-lg   "
     >
-      <HeroSection />
+     
+      <HeroSection  />
       {/* About COMPONENT*/}
       <About />
       {/* PROJECTS COMPONENT */}

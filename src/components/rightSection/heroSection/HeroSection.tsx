@@ -24,13 +24,13 @@ function HeroSection() {
                       {index === 1 && (
                         <motion.img
                           initial={{ width: 0 }}
-                          animate={{ width: "9vw" }}
+                          animate={{ width: "auto" }}
                           transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                          className=" w-[9vw] h-[5.7vw] relative top-[0.3vw]  bg-red-500"
+                          className="  w-7xl md:w-[9vw] sm:w-40 h-12 md:h-[5.7vw] relative top-[0.3vw]  bg-red-500"
                           src={DesignImage}
                         ></motion.img>
                       )}
-                      <h1 className="pt-[0vw] -mb-[1vw] uppercase text-[8vw] leading-[.94]  font-['Founders_Grotesk_X-Condensed'] font-bold">
+                      <h1 className="pt-[0vw] -mb-[1vw] uppercase text-6xl sm:text-7xl md:text-[8vw] leading-[.94]  font-['Founders_Grotesk_X-Condensed'] font-bold">
                         {" "}
                         {item}
                       </h1>
